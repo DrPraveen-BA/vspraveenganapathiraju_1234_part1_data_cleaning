@@ -1,0 +1,10 @@
+,row_count
+sales_mismatch,56
+profit_mismatch,56
+region_missing_filled,25
+conflicting_duplicate_id,24
+ship_mode_missing_filled,21
+ship_before_order,21
+discount_missing_filled_zero,18
+discount_negative_invalid,15
+discount_unusually_high,8

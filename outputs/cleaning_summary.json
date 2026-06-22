@@ -1,0 +1,19 @@
+{
+  "raw_rows": 932,
+  "raw_cols": 21,
+  "exact_duplicates_removed": 20,
+  "final_rows": 912,
+  "region_filled": 25,
+  "ship_mode_filled": 21,
+  "discount_filled_zero": 18,
+  "discount_negative": 15,
+  "discount_unusually_high": 8,
+  "conflicting_duplicate_id_rows": 24,
+  "ship_before_order": 21,
+  "sales_mismatch": 56,
+  "profit_mismatch": 56,
+  "flagged_rows": 156,
+  "fully_clean_rows": 756,
+  "completed_orders": 602,
+  "completed_sales_total": 5959648.9
+}
