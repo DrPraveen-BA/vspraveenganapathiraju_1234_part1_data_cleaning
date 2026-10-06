@@ -1,4 +1,28 @@
-﻿# Part 1 - Data Cleaning (Retail Orders)
+<div align="center">
+
+# 🧹 Retail Orders Data Cleaning
+
+**Turning a messy multi-system export into an analysis-ready, fully audited dataset.**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat-square)
+
+<sub>Capstone project for the **BITSoM Business Analytics with Gen & Agentic AI** program.</sub>
+
+</div>
+
+![Preview](screenshots/03_data_quality_flags.png)
+
+## ⚡ Key results
+
+- **932 → 912 rows** after removing 20 exact duplicates; 4 date formats unified
+- **17% of records (156) flagged** for data-quality issues — flagged, not deleted, so every decision is auditable
+- **56 sales/profit mismatches** fixed by recomputing from quantity × price × discount
+- Technology leads on sales (2.20M) and margin (29.8%); Office Supplies has the thinnest margin
+
+<details>
+<summary><b>📘 Full project write-up</b> (problem, data, method, assumptions, limitations)</summary>
+
+# Part 1 - Data Cleaning (Retail Orders)
 
 **Student:** V S Praveen Ganapathiraju  
 **Student ID:** 1234  
@@ -95,3 +119,13 @@ All in `screenshots/`:
 pip install -r requirements.txt
 jupyter notebook notebooks/part1_data_cleaning.ipynb   # Run All
 ```
+
+</details>
+
+---
+
+<div align="center">
+
+By <a href="https://github.com/DrPraveen-BA">Dr Praveen GVS</a> · Part of my <a href="https://github.com/DrPraveen-BA?tab=repositories&q=vspraveenganapathiraju">business analytics capstone series</a> · ⭐ if you found it useful
+
+</div>
